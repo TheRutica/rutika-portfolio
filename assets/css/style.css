@@ -1253,9 +1253,9 @@ p.section-title-white {
 	transition: 0.3s;
 }
 
-.single_portfolio_design:hover .port_content h2 a {
-	color: #ffde67;
-}
+/* .single_portfolio_design:hover .port_content h2 a {
+	color: #737580;
+} */
 
 .port_content span {}
 
@@ -1327,7 +1327,7 @@ p.section-title-white {
 }
 
 .project-list li a:hover {
-	color: #ffde67;
+	color: #737580;
 }
 
 /*End project modal*/
@@ -1961,7 +1961,21 @@ p.section-title-white {
 .copyright {
 	text-transform: capitalize;
 }
-
+.firstCompany{
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(236, 255, 228, 1)), to(rgba(255, 255, 255, 1)));
+	border-radius: 10px;
+}
+.IgamingCompany{
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(244 236 254)), to(rgba(255, 255, 255, 1)));
+	border-radius: 10px;
+}
+.ZaropayCompany{
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(254 227 177 / 74%)), to(rgba(255, 255, 255, 1)));
+	border-radius: 10px;
+}
+.image-shadow{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 /*
 * ----------------------------------------------------------------------------------------
 * 12.END FOOTER DESIGN
