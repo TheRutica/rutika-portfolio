@@ -1981,3 +1981,20 @@ p.section-title-white {
 * 12.END FOOTER DESIGN
 * ----------------------------------------------------------------------------------------
 */
+
+.image-size {
+	max-width: 66% !important;
+	margin-left: 100px !important;
+}
+
+#testimonial-slider9 .testimonial_content_two img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    border-radius: 8px; /* Optional: Rounded corners */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+#testimonial-slider9 .testimonial_content_two img:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+    transform: translateY(-4px); /* Slight lift on hover */
+}
+
