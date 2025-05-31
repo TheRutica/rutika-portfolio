@@ -203,7 +203,7 @@ Version      : 1.0
 		e.preventDefault();
 		myModal10.show();
 	});
-
+	document.getElementById("year").textContent = new Date().getFullYear();
 	/*START TESTIMONIAL JS*/
 	$("#testimonial-slider").owlCarousel({
 		items: 1,
